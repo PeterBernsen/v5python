@@ -1,0 +1,12 @@
+import json
+
+with open('config.json') as f:
+    config = json.load(f)
+
+# Gebruik de waarden uit de config
+database_url = config['database']['url']
+  "application": {
+    "debug": true,
+    "theme": "dark"
+  }
+}
